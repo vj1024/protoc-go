@@ -27,7 +27,8 @@ RUN cd /tmp && \
 
 # download protoc-gen-validate proto to include
 RUN git clone https://github.com/envoyproxy/protoc-gen-validate.git -b v1.1.0 --depth=1 && \
-    cp -R protoc-gen-validate/validate /tmp/include
+    cp -R protoc-gen-validate/validate /tmp/include && \
+    cd protoc-gen-validate && go install .
 
 RUN cd /tmp/include && find . -type f -not -name '*.proto' -exec rm {} \;
 
