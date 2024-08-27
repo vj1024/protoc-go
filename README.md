@@ -7,16 +7,16 @@ protoc with almost all golang plugins and includes.
 ## Contents
 
 ### /usr/local/bin
-- **protoc** (3.17.0)
-- **protoc-gen-go** (v1.26.0)
-- **protoc-gen-go-grpc** (v1.1.0)
-- **protoc-gen-grpc-gateway** (v2.4.0)
-- **protoc-gen-openapiv2** (v2.4.0)
+- **protoc** (v27.3)
+- **protoc-gen-go** (v1.34.2)
+- **protoc-gen-go-grpc** (v1.5.1)
+- **protoc-gen-grpc-gateway** (v2.22.0)
+- **protoc-gen-openapiv2** (v2.22.0)
 
 ### /usr/local/include
-- github.com/googleapis/**googleapis** (latest 2021-05-21)
-- github.com/grpc-ecosystem/**grpc-gateway** (v2.4.0)
-- github.com/envoyproxy/**protoc-gen-validate** (v0.6.1)
+- github.com/googleapis/**googleapis** (latest 2024-08-27)
+- github.com/grpc-ecosystem/**grpc-gateway** (v2.22.0)
+- github.com/envoyproxy/**protoc-gen-validate** (v1.1.0)
 
 
 ## Usage
